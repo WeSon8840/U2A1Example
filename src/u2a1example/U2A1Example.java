@@ -19,31 +19,34 @@ public class U2A1Example {
      */
     public static void main(String[] args) {
         //create a blank array
-//        String friends[] = new String[5];
-//
-//        //fill in elements
-//        friends[0] = "Sue";
-//        friends[1] = "Jerry";
-//        friends[2] = "Katie";
-//        friends[3] = "Nick";
-//        friends[4] = "Nathaniel";
-//
-//        //print out the friends array
-//        System.out.println(friends[0]);
-//        System.out.println(friends[1]);
-//        System.out.println(friends[2]);
-//        System.out.println(friends[3]);
-//        System.out.println(friends[4]);
-//
-//        System.out.println("--------------");
-//        //create a new friends array in 1 step
-//        String friends2[] = {"Sheldon","Leonard", "Raj", "Howard"};
-//        System.out.println(friends2[0]);
-//        System.out.println(friends2[1]);
-//        System.out.println(friends2[2]);
+        String friends[] = new String[5];
+
+        //fill in elements
+        friends[0] = "Sue";
+        friends[1] = "Jerry";
+        friends[2] = "Katie";
+        friends[3] = "Nick";
+        friends[4] = "Nathaniel";
+
+        //print out the friends array
+        System.out.println(friends[0]);
+        System.out.println(friends[1]);
+        System.out.println(friends[2]);
+        System.out.println(friends[3]);
+        System.out.println(friends[4]);
+
+        System.out.println("--------------");
+        //create a new friends array in 1 step
+        String friends2[] = {"Sheldon","Leonard", "Raj", "Howard"};
+        System.out.println(friends2[0]);
+        System.out.println(friends2[1]);
+        System.out.println(friends2[2]);
+        System.out.println(friends2[3]);
+        
+        System.out.println("--------------");
         
         //This program will use dynamic arrays
-        ArrayList<String> nouns = new ArrayList<String>();
+        ArrayList<String> nouns = new ArrayList<>();
         nouns.add("cat");
         nouns.add("dog");
         nouns.add("horse");
@@ -52,7 +55,7 @@ public class U2A1Example {
         nouns.add("lion");
         nouns.add("giraffe");
 
-        ArrayList<String> verbs = new ArrayList<String>();
+        ArrayList<String> verbs = new ArrayList<>();
         verbs.add("ate");
         verbs.add("slept");
         verbs.add("jumped");
@@ -62,7 +65,7 @@ public class U2A1Example {
         verbs.add("guessed");
         verbs.add("tapped");
 
-        ArrayList<String> rhymingNouns = new ArrayList<String>();
+        ArrayList<String> rhymingNouns = new ArrayList<>();
         rhymingNouns.add("mouse");
         rhymingNouns.add("blouse");
         rhymingNouns.add("grouse");
