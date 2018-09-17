@@ -39,7 +39,7 @@ public class U2A1Example {
         System.out.println(friends2[0]);
         System.out.println(friends2[1]);
         System.out.println(friends2[2]);
-        System.out.println(friends2[3]);
+        
     }
     
 }
